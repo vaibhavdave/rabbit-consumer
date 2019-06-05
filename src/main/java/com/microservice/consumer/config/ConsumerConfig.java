@@ -44,6 +44,8 @@ public class ConsumerConfig implements RabbitListenerConfigurer {
         factory.setMessageConverter(new MappingJackson2MessageConverter());
         return factory;
         //test
+
+        //
     }
 
 
